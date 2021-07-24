@@ -13,10 +13,7 @@ const locations = {
     'say-hello-to-html-elements'
 };
 
-const defaultOutput = `
-/**
-* Your test output will go here
-*/`;
+const defaultOutput = ``;
 
 const runningOutput = '// running tests';
 const finishedOutput = '// tests completed';
