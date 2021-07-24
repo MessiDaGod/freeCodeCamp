@@ -31,7 +31,7 @@ function handleError(err, client) {
 /* eslint-disable max-len */
 const authUser = {
   _id: ObjectId('5bd30e0f1caf6ac3ddddddb5'),
-  email: 'foo@bar.com',
+  email: 'joeshakely@gmail.com',
   emailVerified: true,
   progressTimestamps: [],
   isBanned: false,

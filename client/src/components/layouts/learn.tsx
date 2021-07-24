@@ -10,7 +10,7 @@ import {
   tryToShowDonationModal
 } from '../../redux';
 import createRedirect from '../create-redirect';
-import DonateModal from '../Donation/DonationModal';
+// import DonateModal from '../Donation/DonationModal';
 
 import './prism.css';
 import './prism-night.css';
@@ -90,7 +90,7 @@ class LearnLayout extends Component<LearnLayoutProps> {
         <main id='learn-app-wrapper'>{children}</main>
         {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
         /* @ts-ignore  */}
-        <DonateModal />
+        {/* <DonateModal /> */}
       </>
     );
   }
